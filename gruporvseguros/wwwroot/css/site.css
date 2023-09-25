@@ -1,0 +1,46 @@
+.mv-parrafo{
+    font-size:20px
+}
+
+.mv-div {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.mv-titulo {
+    color: #102E52;
+    font-size:42px;
+}
+.mv-titulo-p2 {
+    color: #38B6FF;
+    font-size: 42px;
+}
+
+.privacidad-titulo {
+    color: #00305B;
+    font-family: raleway,sans-serif;
+    font-size: 56px;
+}
+.privacidad-titulo-bold {
+    color: #00305B;
+    font-family: raleway,sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+}
+.privacidad-semititulo {
+    color: #2AA0CA;
+    font-size: 31px;
+    font-family: raleway,sans-serif;
+}
+
+.centered-justified {
+    text-align: justify;
+    display: inline-block;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.privacidad-parrafo {
+    font-size: 10px;
+    color: #00305B;
+}

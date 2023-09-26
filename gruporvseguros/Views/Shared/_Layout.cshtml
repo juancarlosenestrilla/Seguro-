@@ -86,21 +86,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="service.html" class="nav-item nav-link">Our Services</a>
+                    <a href="@Url.Action("Index","Home")" class="nav-item nav-link active">Inicio</a>
+                    <a href="#" class="nav-item nav-link">Quienes Somos</a>
+                    <a href="#" class="nav-item nav-link">Staff</a>
                     <div class="nav-item dropdown">
                         <a href="#"
                            class="nav-link dropdown-toggle"
                            data-bs-toggle="dropdown">Paginas</a>
                         <div class="dropdown-menu bg-light border-0 m-0">
-                            <a href="appointment.html" class="dropdown-item">Appointment</a>
-                            <a href="team.html" class="dropdown-item">Team Members</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             <a href="@Url.Action("Privacidad","Home")" class="dropdown-item">Privacidad</a>
                         </div>
                     </div>
+                    <div class="nav-item dropdown">
+                        <a href="#"
+                           class="nav-link dropdown-toggle"
+                           data-bs-toggle="dropdown">Productos</a>
+                        <div class="dropdown-menu bg-light border-0 m-0">
+                            <a href="" class="dropdown-item">Prudential</a>
+                            <a href="" class="dropdown-item">Cotiza</a>
+                        </div>
+                    </div>
                     <a href="@Url.Action("Contactanos","Home")" class="nav-item nav-link">Contactanos</a>
+                    <a href="@Url.Action("Contactanos","Home")" class="nav-item nav-link">Galería</a>
                 </div>
             </div>
             <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
@@ -144,10 +151,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Links Rapidos</h5>
-                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Staff</a>
                     <a class="btn btn-link" href="@Url.Action("Contactanos","Home")">Contactanos</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Galería</a>
                     <a class="btn btn-link" href="@Url.Action("Privacidad","Home")">Aviso de Privacidad</a>
                 </div>
             </div>

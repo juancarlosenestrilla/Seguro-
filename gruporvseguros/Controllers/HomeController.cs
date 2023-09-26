@@ -26,6 +26,10 @@ namespace gruporvseguros.Controllers
         {
             return View();
         }
+        public IActionResult Productos()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

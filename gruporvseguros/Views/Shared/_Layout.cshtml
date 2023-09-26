@@ -87,8 +87,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
                     <a href="@Url.Action("Index","Home")" class="nav-item nav-link active">Inicio</a>
-                    <a href="#" class="nav-item nav-link">Quienes Somos</a>
-                    <a href="#" class="nav-item nav-link">Staff</a>
+                    <a href="#about" class="nav-item nav-link">Quienes Somos</a>
+                    <a href="#staff" class="nav-item nav-link">Staff</a>
                     <div class="nav-item dropdown">
                         <a href="#"
                            class="nav-link dropdown-toggle"
@@ -104,6 +104,7 @@
                         <div class="dropdown-menu bg-light border-0 m-0">
                             <a href="" class="dropdown-item">Prudential</a>
                             <a href="" class="dropdown-item">Cotiza</a>
+                            <a href="@Url.Action("Productos","Home")" class="dropdown-item">Ver Mas</a>
                         </div>
                     </div>
                     <a href="@Url.Action("Contactanos","Home")" class="nav-item nav-link">Contactanos</a>
@@ -151,7 +152,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Links Rapidos</h5>
-                    <a class="btn btn-link" href="">Staff</a>
+                    <a class="btn btn-link" href="@Url.Action("Productos","Home")">Más Productos</a>
                     <a class="btn btn-link" href="@Url.Action("Contactanos","Home")">Contactanos</a>
                     <a class="btn btn-link" href="">Galería</a>
                     <a class="btn btn-link" href="@Url.Action("Privacidad","Home")">Aviso de Privacidad</a>

@@ -30,7 +30,10 @@ namespace gruporvseguros.Controllers
         {
             return View();
         }
-
+        public IActionResult Cotizacion()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -48,3 +48,11 @@
 .parrafo-inicio {
     color:white !important;
 }
+
+.contenedor-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Altura del 100% de la ventana del navegador */
+}

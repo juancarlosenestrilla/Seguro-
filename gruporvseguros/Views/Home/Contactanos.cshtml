@@ -32,6 +32,7 @@
                                 <input type="text"
                                        class="form-control"
                                        id="gname"
+                                       name="destinatario"
                                        placeholder="Nombre" />
                                 <label for="gname">Nombre</label>
                             </div>
@@ -41,6 +42,7 @@
                                 <input type="email"
                                        class="form-control"
                                        id="gmail"
+                                       name="correo_destinatario"
                                        placeholder="Correo" />
                                 <label for="gmail">Correo</label>
                             </div>
@@ -50,6 +52,7 @@
                                 <input type="text"
                                        class="form-control"
                                        id="cname"
+                                       name="telefono"
                                        placeholder="Telefono" />
                                 <label for="cname">Telefono</label>
                             </div>
@@ -59,9 +62,14 @@
                                 <textarea class="form-control"
                                           placeholder="Dejanos un mensaje"
                                           id="message"
+                                          name ="mensaje"
                                           style="height: 80px"></textarea>
                                 <label for="message">Mensaje</label>
                             </div>
+                        </div>
+                        <div style="display:none">
+                            <input type="text" name="asunto" value="Contacto" />
+                            <input type="text" name="accion_redireccionar" value="Contactanos" />
                         </div>
                         <div class="col-12">
                             <button class="btn btn-primary py-3 px-5" type="submit">

@@ -58,7 +58,7 @@
 }
 .div-prudential{
     margin-left:20%;
-    margin-right:20%
+    margin-right:20%;
 }
     .div-prudential p {
         font-size: 18px;
@@ -68,3 +68,16 @@
         font-size: 18px;
         color: #00305B;
     }
+.contenedor {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#subsidiarias {
+    color: #00305B;
+}
+#subsidiarias p {
+    font-size:14px
+}
+#subsidiarias td{
+    width:30%
+}
